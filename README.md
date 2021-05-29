@@ -47,7 +47,7 @@ platform ["youtube.com/v/gf75ja5","soundcloud.com/my/song"] or ["Soundcloud: sou
 
 
 ## Geo 🌍
-ISO country codes ()
+ISO country codes (ISO 3166-1 alpha-3)
 
 Locale string intended to be used in this format "City, County, State" or corresponding values for a given locality
 
