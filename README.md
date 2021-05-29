@@ -1,15 +1,15 @@
-# cXc Music NFT Schema Recommendation 
+# cXc Music NFT Schema Recommendation 🎸
 
 The cXc Music NFT Schema serves as a recommendation for any individual, collection, or application to publish a music NFT. 
 
 The benefits of using this schema include forward compatibility (Geotags) monetizing NFT plays with traditional platform players, infinite credits and links, and more.
 
-This Schema exists within Atomic Asset's [NFT standard](https://github.com/pinknetworkx/atomicassets-contract) on the ([atomicassets contract](https://wax.bloks.io/account/atomicassets)).
+This Schema exists within Atomic Asset's [NFT standard](https://github.com/pinknetworkx/atomicassets-contract) on the [atomicassets contract](https://wax.bloks.io/account/atomicassets).
 
 Feel free to use or modify this schema for your own purposes. 
 
 
-# Summary 
+# Summary 🗞️
 This standard includes:  
 
 Name of the NFT (Can be different than track title)
@@ -34,7 +34,7 @@ Rarity
 
 
 
-# Technical Summary
+# Technical Summary ⚙️
 All media fields use IPFS.   
 
 All other info fields are strings (except "track" is int64)  
@@ -46,8 +46,8 @@ platform ["youtube.com/v/gf75ja5","soundcloud.com/my/song"] or ["Soundcloud: sou
 
 
 
-## Geo
-ISO country codes [st]
+## Geo 🌍
+ISO country codes ()
 
 Locale string intended to be used in this format "City, County, State" or corresponding values for a given locality
 
@@ -63,7 +63,7 @@ Rarity
 
 
 | Field name | Type | Description | 
-| :----:  | :----: | :----: |
+| :----:  | :----: | :---- |
 | name | string | NFT name |  
 | img | string | Primary image / Cover image |  
 | audio | string | Audio file IPFS hash |  
@@ -90,13 +90,13 @@ Rarity
 
 Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. Because this standard uses the `string[]` (string array) type, it's currently not possible to use directly on [Atomichub](https://wax.atomichub.io/) UI, but should be in the future.
 
-> !! Important  
+> ℹ️  Important  
 
 Using this schema does not mean that each template must have every field filled, 
 but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying.
 
 
- # cXc Music Schema 
+ # cXc Music Schema 🕺
 
 ```javascript
 [
@@ -187,7 +187,7 @@ but you can only choose from fields in your future templates. You may add fields
 
 
 
-# Modify this schema 
+# Modify this schema  🛠️
 
 Change any field you wish when making your own schema 
 
@@ -200,13 +200,13 @@ Metadata - Add metadata like the key, BPM, time, whatever you want
 If you'd rather include all of your links in the Platform field, you can remove the Spotify, Soundcloud, and Youtube field. Removing Youtube will also disable Youtube player from showing up on Atomichub and likely other marketplaces.
 
 
-# Power of the Schema
+# Power of the Schema ✨ 🧙‍♂️
 There is no magical benefit (yet) of using this standard, just practical ones. 
 
 In the future it's possible a mapp / dapp (like cXc) to allow users to register their own schemas that adhere to this standard, creating a Music-NFT exclusive platform that doesn't rely on accounts or collection names alone. 
 
 
-# Evolution of the Schema
+# Evolution of the Schema 🚀
 
 This schema will grow and evolve. Feel free to open issues on this repo with your suggestions.  
 
