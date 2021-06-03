@@ -193,15 +193,17 @@ Change any field you wish when making your own schema
 
 Suggestions:
 
-Artist - If you'd rather have your name here than in credits   
-Multiple Audio fields - Duplicate the audio fields to include all songs on an album (DYOR on support)   
-Metadata - Add metadata like the key, BPM, time, whatever you want   
+**Artist** - If you'd rather have your name here than in credits   
+**Multiple Audio fields** - Duplicate the audio fields to include all songs on an album (DYOR on support)   
+**Metadata** - Add custom metadata like the key, BPM, time, whatever you want   
 
-If you'd rather include all of your links in the Platform field, you can remove the Spotify, Soundcloud, and Youtube field. Removing Youtube will also disable Youtube player from showing up on Atomichub and likely other marketplaces.
+If you'd rather include all of your links in the Platform field, you can remove the Spotify, Soundcloud, and Youtube field. 
+
+Removing Youtube will also disable Youtube player from showing up on Atomichub and likely other marketplaces.
 
 
 # Power of the Schema ✨ 🧙‍♂️
-There is no magical benefit (yet) of using this standard, just practical ones. 
+There is no magical benefit (yet) of using this standard, just practical ones. Youtube plays can bring extra revenue, as will the links to other players. You may credit all involved, and geographic data opens up new use cases for your NFT.  
 
 In the future it's possible a mapp / dapp (like cXc) to allow users to register their own schemas that adhere to this standard, creating a Music-NFT exclusive platform that doesn't rely on accounts or collection names alone. 
 
