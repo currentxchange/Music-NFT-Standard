@@ -184,7 +184,8 @@ but you can only choose from fields in your future templates. You may add fields
 ```
 
 
-
+# Create a Template  🛠️ 🖼️. 
+Use [this example](https://github.com/currentxchange/Music-NFT-Standard/blob/main/Template%20Example.md) to create a template you can use to drop your own Music NFTs using tools like [Atomichub](https://wax.atomichub.io/) and [Neftyblocks](https://neftyblocks.com/).
 
 
 # Modify this schema  🛠️
@@ -208,8 +209,10 @@ There is no magical benefit (yet) of using this standard, just practical ones. Y
 In the future it's possible a mapp / dapp (like cXc) to allow users to register their own schemas that adhere to this standard, creating a Music-NFT exclusive platform that doesn't rely on accounts or collection names alone. 
 
 
-# Evolution of the Schema 🚀
+# Evolution of the Schema 🚀 🛸
 
 This schema will grow and evolve. Feel free to open issues on this repo with your suggestions.  
 
-If you translate to another blockchain or NFT standard, please send a pull request with a file named <chain>.md in the main directory or open an issue with the code and I can update the repo if you prefer. 
+If you translate to another blockchain or NFT standard, please send a pull request adding a file named <chain>.md in the main directory containing the code needed to deploy, or open an issue with the code and I can update the repo if you prefer. 
+
+<p align="center"> ~ *Created with 💜 by [cXc.world](https://cxc.world)* ~ <b>
