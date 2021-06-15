@@ -215,4 +215,4 @@ This schema will grow and evolve. Feel free to open issues on this repo with you
 
 If you translate to another blockchain or NFT standard, please send a pull request adding a file named <chain>.md in the main directory containing the code needed to deploy, or open an issue with the code and I can update the repo if you prefer. 
 
-<p align="center"> ~ *Created with 💜 by cXc.world* ~ <b>
+<p align="center"> ~ Created with 💜  by cXc.world ~ <p>
