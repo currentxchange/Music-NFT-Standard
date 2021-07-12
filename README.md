@@ -1,4 +1,4 @@
-# cXc Music NFT Schema Recommendation 🎸
+# cXc Music NFT Standard 🎸
 
 The cXc Music NFT Schema serves as a recommendation for any individual, collection, or application to publish a music NFT. 
 
