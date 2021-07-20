@@ -1,6 +1,6 @@
 # cXc Music NFT Standard 🎸
 
-The cXc Music NFT Schema serves as a recommendation for any individual, collection, or application to publish a music NFT. 
+The cXc Music NFT Standard serves as an Atomic Assets schema recommendation for any individual, collection, or application to publish a music NFT project. 
 
 The benefits of using this schema include forward compatibility (Geotags) monetizing NFT plays with traditional platform players, infinite credits and links, and more.
 
@@ -73,7 +73,7 @@ Rarity
 | title | string | The actual title of the track |  
 | album | string | Title of the album |  
 | track | int64 | Number of the track on the album |  
-| year | string | Year recorded |  
+| year | string | Year recorded or first released |  
 | about | string | Description field with info about |  
 | credits | string[] | Array of song credits |  
 | youtube | string | Youtube URL |  
@@ -89,7 +89,7 @@ Rarity
 
 # To use this Standard 
 
-Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. Because this standard uses the `string[]` (string array) type, it's currently not possible to use directly on [Atomichub](https://wax.atomichub.io/) UI, but should be in the future.
+Copy from this repo using the copy ico in the top-right of the code. Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. You'll find that [here](https://github.com/currentxchange/Music-NFT-Standard/blob/main/Template%20Example.md). Because this standard uses the `string[]` (string array) type, it's currently **not possible** to use directly on [Atomichub.io](https://wax.atomichub.io/) UI, but should be in the future.
 
 > ℹ️  Important  
 
