@@ -73,6 +73,7 @@ Rarity
 | title | string | The actual title of the track |  
 | album | string | Title of the album |  
 | track | int64 | Number of the track on the album |  
+| year | string | Year recorded |  
 | about | string | Description field with info about |  
 | credits | string[] | Array of song credits |  
 | youtube | string | Youtube URL |  
@@ -135,6 +136,10 @@ but you can only choose from fields in your future templates. You may add fields
   {
     "name": "track",
     "type": "int64"
+  },
+  {
+    "name": "year",
+    "type": "string"
   },
   {
     "name": "about",
