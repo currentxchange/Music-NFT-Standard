@@ -1,5 +1,8 @@
 # cXc Music NFT Standard 🎸
 
+0.1.3
+
+
 The cXc Music NFT Standard serves as an Atomic Assets schema recommendation for any individual, collection, or application to publish a music NFT project. 
 
 The benefits of using this schema include forward compatibility (Geotags) monetizing NFT plays with traditional platform players, infinite credits and links, and more.
@@ -70,6 +73,8 @@ Rarity
 | video | string | Music video file IPFS has |  
 | backimg | string | Back cover of album / single |  
 | promo | string | Extra image for promo poster, QR code, etc |  
+| collectionimg | string | Extra image for Collection, optional |  
+| artist | string | The artist, if you prefer a separate field to putting with other credits | 
 | title | string | The actual title of the track |  
 | album | string | Title of the album |  
 | track | int64 | Number of the track on the album |  
@@ -124,6 +129,14 @@ but you can only choose from fields in your future templates. You may add fields
   {
     "name": "promo",
     "type": "image"
+  },
+  {
+    "name": "collectionimg",
+    "type": "image"
+  },
+  {          
+    "name": "artist",
+    "type": "string"
   },
   {          
     "name": "title",
