@@ -84,7 +84,7 @@ Rarity
 | youtube | string | Youtube URL |  
 | spotify | string | Spotify URL |  
 | soundcloud | string | Soundcloud URL |  
-| platforms | string[] | How scarce is this NFT? |  
+| platforms | string[] | A list of all platforms the music can be found, and socials if desired |  
 | nation | string | Three-letter ISO (USA, BRA, AUS, etc) |  
 | locale | string | Concatanation of lower locales (State, County, City in USA) |  
 | geotag | string | GeoJSON Point stored as string |  
