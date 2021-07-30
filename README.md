@@ -1,7 +1,12 @@
 # cXc Music NFT Standard 🎸
 
-0.1.3
-
+```Javascript
+// -- Stats -- \\
+Version: 0.1.3
+Total Fields: 23 
+Music Fields: audio, video
+Image Fields: img, backimg, collectionimg, promo
+```
 
 The cXc Music NFT Standard serves as an Atomic Assets schema recommendation for any individual, collection, or application to publish a music NFT project. 
 
@@ -11,6 +16,8 @@ This Schema exists within Atomic Asset's [NFT standard](https://github.com/pinkn
 
 Feel free to use or modify this schema for your own purposes. 
 
+## Check out our NFT collection using this standard [here](https://drops.cxc.world/)
+
 
 # Summary 🗞️
 This standard includes:  
@@ -19,7 +26,7 @@ Name of the NFT (Can be different than track title)
 
 One audio file   
 One video file   
-Three images [Main, Back, and Promo]   
+four images [Main, Back, Collection and Promo]   
 
 Title [If different than name]   
 Album name   
@@ -70,7 +77,7 @@ Rarity
 | name | string | NFT name |  
 | img | string | Primary image / Cover image |  
 | audio | string | Audio file IPFS hash |  
-| video | string | Music video file IPFS has |  
+| video | string | Music video file IPFS hash |  
 | backimg | string | Back cover of album / single |  
 | promo | string | Extra image for promo poster, QR code, etc |  
 | collectionimg | string | Extra image for Collection, optional |  
@@ -99,7 +106,7 @@ Copy from this repo using the copy ico in the top-right of the code. Paste the f
 > ℹ️  Important  
 
 Using this schema does not mean that each template must have every field filled, 
-but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying.
+but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying. It's also possible to manually create a schema with this as a guide, like CAIT did
 
 
  # cXc Music Schema 🕺
@@ -232,5 +239,14 @@ In the future it's possible a mapp / dapp (like cXc) to allow users to register 
 This schema will grow and evolve. Feel free to open issues on this repo with your suggestions.  
 
 If you translate to another blockchain or NFT standard, please send a pull request adding a file named <chain>.md in the main directory containing the code needed to deploy, or open an issue with the code and I can update the repo if you prefer. 
+
+# Mini Change Log
+
+## 0.1.3
+Added `artist`, `year`, and `collectionimg`
+
+## 0.1.2
+Added `rarity`
+
 
 <p align="center"> ~ Created with 💜  by cXc.world ~ <p>
