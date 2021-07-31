@@ -101,11 +101,11 @@ Rarity
 
 # To use this Standard 
 
-Copy from this repo using the copy ico in the top-right of the code. Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. You'll find that [here](https://github.com/currentxchange/Music-NFT-Standard/blob/main/Template%20Example.md). Because this standard uses the `string[]` (string array) type, it's currently **not possible** to use directly on [Atomichub.io](https://wax.atomichub.io/) UI, but should be in the future.
+Copy from this repo using the copy icon in the top-right of the code. Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. You'll find that [here](https://github.com/currentxchange/Music-NFT-Standard/blob/main/Template%20Example.md). Because this standard uses the `string[]` (string array) type, it's currently **not possible** to use directly on [Atomichub.io](https://wax.atomichub.io/) UI, but should be in the future. For this reason, some projects (like [CAIT Drops](https://www.caittoken.io/CAIT-Drops/)) choose to implement the standard manually through the UI. *note field names must match case-sensitive to function*
 
 > ℹ️  Important  
 
-Using this schema does not mean that each template must have every field filled, 
+Using this schema does NOT mean that each template must have every field filled, 
 but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying. It's also possible to manually create a schema with this as a guide, like CAIT did
 
 
@@ -246,7 +246,10 @@ If you translate to another blockchain or NFT standard, please send a pull reque
 Added `artist`, `year`, and `collectionimg`
 
 ## 0.1.2
-Added `rarity`
+Added `rarity` and license
+
+## 0.1.1
+Added `track` and `album`
 
 
-<p align="center"> ~ Created with 💜  by cXc.world ~ <p>
+<p align="center"> ~ Created with 💜  by [cXc.world](https://cxc.world) ~ <p>
