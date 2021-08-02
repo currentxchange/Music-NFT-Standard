@@ -4,7 +4,7 @@
 // -- Stats -- \\
 Version: 0.1.3
 Total Fields: 23 
-Used in: [CAIT Music NFTs](https://www.caittoken.io/CAIT-Drops/), [cXc Music NFTs](https://drops.cxc.world)
+Used by: caittoken.io/CAIT-Drops, drops.cxc.world
 ```
 
 The cXc Music NFT Standard serves as an Atomic Assets schema recommendation for any individual, collection, or application to publish a music NFT project. 
