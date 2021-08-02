@@ -252,4 +252,4 @@ Added `rarity` and license
 Added `track` and `album`
 
 
-<p align="center"> ~ Created with 💜  by [cXc.world](https://cxc.world) ~ <p>
+ <p align="center"> ~ Created with 💜  by <a href="https://cxc.world" alt="cXc.world Music Mapp">cXc.world</a> ~ <p>
