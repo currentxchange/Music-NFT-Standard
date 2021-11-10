@@ -95,7 +95,7 @@ Rarity
 | locale | string | Concatanation of lower locales (State, County, City in USA) |  
 | geotag | string | GeoJSON Point stored as string |  
 | license | string | Declare license if needed, (CC0, etc) |  
-| rarity | string | How scarce is this NFT? |  
+| rarity | string | How scarce is this NFT? Abundant Common Uncommon Rare Epic Mythic Unique |  
 
 
 # To use this Standard 
