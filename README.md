@@ -3,17 +3,22 @@
 ```Javascript
 // -- Stats -- \\
 Version: 0.1.3
-Total Fields: 23 
-Used by: caittoken.io/CAIT-Drops, drops.cxc.world
+Total Fields: 24
+by: drops.cxc.world
 ```
 
-The cXc Music NFT Standard serves as an Atomic Assets schema recommendation for any individual, collection, or application to publish a music NFT project. 
+# Watch the [Instructional Video](https://www.youtube.com/watch?v=GXjBQnV_Xm8) on creating your Music NFT (Works on WAX, EOS)
+
+
+The cXc Music NFT Standard is a Music-Forward Atomic Assets data schema for any individual, collection, or application to make their own music NFT project. 
 
 The benefits of using this schema include forward compatibility (Geotags) monetizing NFT plays with traditional platform players, infinite credits and links, and more.
 
+There's no code required. You'll also see the all the code below, ready for changes if you'd rather exclude traditional players, or add extra audio fields. You can even [make a music NFT from your phone.](https://www.youtube.com/watch?v=k0vt8v5iIn4)
+
 This Schema exists within Atomic Asset's [NFT standard](https://github.com/pinknetworkx/atomicassets-contract) on the [atomicassets contract](https://wax.bloks.io/account/atomicassets).
 
-Feel free to use or modify this schema for your own purposes. 
+Feel free to use or modify this schema for any purposes.
 
 ## Check out our NFT collection using this standard [here](https://drops.cxc.world/)
 
@@ -77,14 +82,15 @@ Rarity
 | img | string | Primary image / Cover image |  
 | audio | string | Audio file IPFS hash |  
 | video | string | Music video file IPFS hash |  
+| clip | string | Additional video file IPFS hash |  
 | backimg | string | Back cover of album / single |  
-| promo | string | Extra image for promo poster, QR code, etc |  
+| promo | string | Extra image or video for promo poster, QR code, etc |  
 | collectionimg | string | Extra image for Collection, optional |  
 | artist | string | The artist, if you prefer a separate field to putting with other credits | 
 | title | string | The actual title of the track |  
 | album | string | Title of the album |  
 | track | int64 | Number of the track on the album |  
-| year | string | Year recorded or first released |  
+| released | string | Year recorded or first released |  
 | about | string | Description field with info about |  
 | credits | string[] | Array of song credits |  
 | youtube | string | Youtube URL |  
@@ -92,7 +98,7 @@ Rarity
 | soundcloud | string | Soundcloud URL |  
 | platforms | string[] | A list of all platforms the music can be found, and socials if desired |  
 | nation | string | Three-letter ISO (USA, BRA, AUS, etc) |  
-| locale | string | Concatanation of lower locales (State, County, City in USA) |  
+| locale | string | Local locales (State, County, City in USA) |  
 | geotag | string | GeoJSON Point stored as string |  
 | license | string | Declare license if needed, (CC0, etc) |  
 | rarity | string | How scarce is this NFT? Abundant Common Uncommon Rare Epic Mythic Unique |  
@@ -127,6 +133,10 @@ but you can only choose from fields in your future templates. You may add fields
   },
   {
     "name": "video",
+    "type": "ipfs"
+  },
+  {
+    "name": "clip",
     "type": "ipfs"
   },
   {
@@ -228,6 +238,10 @@ but you can only choose from fields in your future templates. You may add fields
   },
   {
     "name": "video",
+    "type": "ipfs"
+  },
+  {
+    "name": "clip",
     "type": "ipfs"
   },
   {
@@ -347,6 +361,10 @@ If you translate to another blockchain or NFT standard, please send a pull reque
 
 # Mini Change Log
 
+## 0.1.4
+Changed `year` to `released`
+Added Additional `clip` and img fields
+Changed `promo` description to suggest video + image 
 
 ## 0.1.3
 Added `artist`, `year`, and `collectionimg`
