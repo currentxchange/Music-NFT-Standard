@@ -2,7 +2,7 @@
 
 ```Javascript
 // -- Stats -- \\
-Version: 0.1.3
+Version: 0.1.4
 Total Fields: 24
 by: drops.cxc.world
 ```
@@ -337,7 +337,7 @@ Change any field you wish when making your own schema
 Suggestions:
 
 **Artist** - If you'd rather have your name here than in credits   
-**Multiple Audio fields** - Duplicate the audio fields to include all songs on an album (DYOR on support)   
+**Multiple Audio fields** - Duplicate the audio fields to include all songs on an album (DYOR on marketplace support)   
 **Metadata** - Add custom metadata like the key, BPM, time, whatever you want   
 
 If you'd rather include all of your links in the Platform field, you can remove the Spotify, Soundcloud, and Youtube field. 
