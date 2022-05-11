@@ -114,112 +114,8 @@ Using this schema does NOT mean that each template must have every field filled,
 but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying. It's also possible to manually create a schema with this as a guide, like CAIT did
 
 
- # cXc Music Schema 🎸 
-> This requires [atomicassets => createtempl](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtempl) to post [future templates](Template Example.md), see the simplified version below to be able to add templates within the Atomichub UI
-
-```javascript
-[
-  {
-    "name": "name",
-    "type": "string"
-  },
-  {
-    "name": "img",
-    "type": "image"
-  },
-  {
-    "name": "audio",
-    "type": "ipfs"
-  },
-  {
-    "name": "video",
-    "type": "ipfs"
-  },
-  {
-    "name": "clip",
-    "type": "ipfs"
-  },
-  {
-    "name": "backimg",
-    "type": "image"
-  },
-  {
-    "name": "promo",
-    "type": "image"
-  },
-  {
-    "name": "collectionimg",
-    "type": "image"
-  },
-  {          
-    "name": "artist",
-    "type": "string"
-  },
-  {          
-    "name": "title",
-    "type": "string"
-  },
-  {
-    "name": "album",
-    "type": "string"
-  },
-  {
-    "name": "track",
-    "type": "int64"
-  },
-  {
-    "name": "year",
-    "type": "string"
-  },
-  {
-    "name": "about",
-    "type": "string"
-  },
-  {
-    "name": "credits",
-    "type": "string[]"
-  },
-  {
-    "name": "youtube",
-    "type": "string"
-  },
-  {
-    "name": "spotify",
-    "type": "string"
-  },
-  {
-    "name": "soundcloud",
-    "type": "string"
-  },
-  {
-    "name": "platforms",
-    "type": "string[]"
-  },
-  {
-    "name": "nation",
-    "type": "string"
-  },
-  {
-    "name": "locale",
-    "type": "string"
-  },
-  {
-    "name": "geotag",
-    "type": "string"
-  },
-  {
-    "name": "license",
-    "type": "string"
-  },
-  {
-    "name": "rarity",
-    "type": "string"
-  }
-]
-```
-
-
-# Simplified cXc Music Schema 🪕
+# cXc Music Schema 🎸 
+> Merged with Simple version (This is the Simple Version)
 > Works with Atomichub UI out of the box. You can even avoid touching this code by using Create Schema on atomichub to replicate. 
 
 ```javascript
@@ -365,6 +261,7 @@ If you translate to another blockchain or NFT standard, please send a pull reque
 Changed `year` to `released`
 Added Additional `clip` and img fields
 Changed `promo` description to suggest video + image 
+Merged Simple version, made Simple the only option. To use old version, change string to string[]. This isn't reccommended as there's little benefit and it's not usable through the Atomichub UI
 
 ## 0.1.3
 Added `artist`, `year`, and `collectionimg`
