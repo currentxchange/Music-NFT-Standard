@@ -67,12 +67,9 @@ Locale string intended to be used in this format "City, County, State" or corres
 
 geotag is a GeoJson point stored as a string
 
-
 License is for codes like "CC-BY", or possibly declaring some priviledge grant upon receiving NFT. 
 
-Rarity 
-
-
+Rarity is filterable on UIs like Atomichub and wax
 
 
 
@@ -111,7 +108,7 @@ Copy from this repo using the copy icon in the top-right of the code. Paste the 
 > ℹ️  Important  
 
 Using this schema does NOT mean that each template must have every field filled, 
-but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best modify this standard to your needs before deploying. It's also possible to manually create a schema with this as a guide, like CAIT did
+but you can only choose from fields in your future templates. You may add fields to the schema later, but not remove them. New fields will appear at the end, thus, best to modify this standard to your needs before deploying.
 
 
 # cXc Music Schema 🎸 
@@ -230,7 +227,7 @@ Use [this example](https://github.com/currentxchange/Music-NFT-Standard/blob/mai
 
 Change any field you wish when making your own schema 
 
-Suggestions:
+Ideas:
 
 **Artist** - If you'd rather have your name here than in credits   
 **Multiple Audio fields** - Duplicate the audio fields to include all songs on an album (DYOR on marketplace support)   
@@ -261,13 +258,13 @@ If you translate to another blockchain or NFT standard, please send a pull reque
 Changed `year` to `released`
 Added Additional `clip` and img fields
 Changed `promo` description to suggest video + image 
-Merged Simple version, made Simple the only option. To use old version, change string to string[]. This isn't reccommended as there's little benefit and it's not usable through the Atomichub UI
+Merged Simple version, made Simple the only option. To use old version, change string to string[] ans use . This isn't recommended as there's little benefit and it's not usable through the Atomichub UI
 
 ## 0.1.3
 Added `artist`, `year`, and `collectionimg`
 
 ## 0.1.2
-Added `rarity` and license
+Added `rarity` and `license`
 
 ## 0.1.1
 Added `track` and `album`
