@@ -89,11 +89,11 @@ Rarity is filterable on UIs like Atomichub and wax
 | track | int64 | Number of the track on the album |  
 | released | string | Year recorded or first released |  
 | about | string | Description field with info about |  
-| credits | string[] | Array of song credits |  
+| credits | string | Array of song credits |  
 | youtube | string | Youtube URL |  
 | spotify | string | Spotify URL |  
 | soundcloud | string | Soundcloud URL |  
-| platforms | string[] | A list of all platforms the music can be found, and socials if desired |  
+| platforms | string | A list of all platforms the music can be found, and socials if desired |  
 | nation | string | Three-letter ISO (USA, BRA, AUS, etc) |  
 | locale | string | Local locales (State, County, City in USA) |  
 | geotag | string | GeoJSON Point stored as string |  
