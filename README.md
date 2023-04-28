@@ -1,11 +1,8 @@
 # cXc Music NFT Standard 🎸
 
-```Javascript
-// -- Stats -- \\
-Version: 0.1.4
-Total Fields: 24
-by: drops.cxc.world
-```
+  Version: 0.1.4
+  Total Fields: 24
+  by: [cXc.world](https://cxc.world/)
 
 # Watch the [Instructional Video](https://www.youtube.com/watch?v=GXjBQnV_Xm8) on creating your Music NFT (Works on WAX, EOS)
 
@@ -18,7 +15,7 @@ There's no code required. You'll also see the all the code below, ready for chan
 
 This Schema exists within Atomic Asset's [NFT standard](https://github.com/pinknetworkx/atomicassets-contract) on the [atomicassets contract](https://wax.bloks.io/account/atomicassets).
 
-Feel free to use or modify this schema for any purposes.
+Feel free to use or modify this schema for any purposes in accordance with the [license]().
 
 ## Check out our NFT collection using this standard [here](https://drops.cxc.world/)
 
