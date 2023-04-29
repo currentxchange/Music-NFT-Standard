@@ -98,7 +98,7 @@ Rarity is filterable on UIs like Atomichub and wax
 
 # To use this Standard 
 
-Copy from this repo using the copy icon in the top-right of the code. Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. You'll find that [here](https://github.com/currentxchange/Music-NFT-Standard/blob/main/Template%20Example.md). Because this standard uses the `string[]` (string array) type, it's currently **not possible** to use directly on [Atomichub.io](https://wax.atomichub.io/) UI, but should be in the future. For this reason, some projects (like [CAIT Drops](https://www.caittoken.io/CAIT-Drops/)) choose to implement the standard manually through the UI. *note field names must match case-sensitive to function*
+Copy from this repo using the copy icon in the top-right of the code. Paste the following array into the `idata` field using the Atomic Assets [createschema](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createschema) action to create your own schema on Atomic Assets, and then create [template](https://wax.bloks.io/account/atomicassets?loadContract=true&tab=Actions&account=atomicassets&scope=atomicassets&limit=100&action=createtemp) from the schema for each NFT you release. 
 
 > ℹ️  Important  
 
