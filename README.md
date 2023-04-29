@@ -91,8 +91,8 @@ Rarity is filterable on UIs like Atomichub and wax
 | platforms | string | A list of all platforms the music can be found, and socials if desired |  
 | nation | string | Three-letter ISO (USA, BRA, AUS, etc) |  
 | locale | string | Local locales (State, County, City in USA) |  
-| geotag | string | GeoJSON Point stored as string |  
-| license | string | Declare license if needed, (CC0, etc) |  
+| geotag | string | GeoJSON Point stored as string, format "lat,lng" (e.g., "37.7749,-122.4194"), or a "[lat,lng]" coordinate array (e.g., "[37.7749, -122.4194]") |  
+| license | string | Declare license, (Copyright, CC0, MIT, etc) |  
 | rarity | string | How scarce is this NFT? Abundant Common Uncommon Rare Epic Mythic Unique |  
 
 
