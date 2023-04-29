@@ -25,9 +25,10 @@ This standard includes:
 
 Name of the NFT (Can be different than track title)
 
-One audio file   
-One video file   
-four images [Main, Back, Collection and Promo]   
+One audio field  
+One video field  
+Four images [Main, Back, Collection and Promo]   
+One clip that can be anything used for a preview or extra media field of any type
 
 Title [If different than name]   
 Album name   
@@ -38,7 +39,7 @@ Any number of custom platform links
 
 ISO Country code  
 Readable locale   
-Pin as GeoJson Point   
+Geotag as GeoJson Point   
 
 License   
 Rarity   
@@ -50,10 +51,7 @@ All media fields use IPFS.
 
 All other info fields are strings (except "track" is int64)  
 
-String arrays are used to store unlimited Credits and Platform links.   
-Ex.  
-credits ["Band":"Boaty & The Boats","Bassist: Tim Leary", "Vocalist: Boaty McBoatface"]  
-platform ["youtube.com/v/gf75ja5","soundcloud.com/my/song"] or ["Soundcloud: soundcloud.com/my/song"]
+`year` is also a string in case there's a more accurate date desired or a range of years.
 
 
 
@@ -255,7 +253,7 @@ If you translate to another blockchain or NFT standard, please send a pull reque
 Changed `year` to `released`
 Added Additional `clip` and img fields
 Changed `promo` description to suggest video + image 
-Merged Simple version, made Simple the only option. To use old version, change string to string[] ans use . This isn't recommended as there's little benefit and it's not usable through the Atomichub UI
+Merged Simple version, made Simple the only option. To use old version, change string to string[] and use. This isn't recommended as there's little benefit and it's not working well through the Atomichub UI
 
 ## 0.1.3
 Added `artist`, `year`, and `collectionimg`
