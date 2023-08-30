@@ -19,21 +19,21 @@ To do this you will have to use the [atomicassets => createtempl](https://wax.bl
       {
         "key": "img",
         "value": [
-          "string",
+          "image",
           "QmP1gc43EsmXoaYuT2XPZFWx9SDKk9JxAzpPMP4AUm3aof"
         ]
       },
       {
         "key": "promo",
         "value": [
-          "string",
+          "image",
           "QmYzu7Dz7LqZP3jq4zmt84rpmjWm2AfhH1SF4Et5LbxVJy"
         ]
       },
       {
         "key": "audio",
         "value": [
-          "string",
+          "ipfs",
           "QmWGFx5epoiQBJ3CwBQ3VpNKNJ5VFoKoKDbXExiNLF5zAQ"
         ]
       },
@@ -47,8 +47,8 @@ To do this you will have to use the [atomicassets => createtempl](https://wax.bl
       {
         "key": "credits",
         "value": [
-          "STRING_VEC",
-          ["Artist: Sir Douglas Fresh","Beat: Blue Birds by Ours Samplus, live-mixed by Scarfinger"]
+          "string",
+          "Artist: Sir Douglas Fresh","Beat: Blue Birds by Ours Samplus, live-mixed by Scarfinger"
         ]
       },
       {
@@ -68,8 +68,8 @@ To do this you will have to use the [atomicassets => createtempl](https://wax.bl
       {
         "key": "platforms",
         "value": [
-          "STRING_VEC",
-          ["music.cxc.world/?id=1948"]
+          "string",
+          "music.cxc.world/?id=1948"
         ]
       },  
       {
