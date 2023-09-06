@@ -76,9 +76,9 @@ geotag is a GeoJson point stored as a string
 | :----:  | :----: | :---- |
 | name | string | NFT name |  
 | img | image | Primary image / Cover image |  
-| audio | audio | Audio file IPFS hash |  
-| video | video | Music video file IPFS hash |  
-| clip | video | Additional video file IPFS hash |  
+| audio | ipfs | Audio file IPFS hash |  
+| video | ipfs | Music video file IPFS hash |  
+| clip | ipfs | Additional video file IPFS hash |  
 | backimg | image | Back cover of album / single |  
 | promo | ipfs | Extra image or video for promo poster, QR code, etc |  
 | collectionimg | image | Extra image for Collection, optional |  
@@ -134,7 +134,7 @@ Using this schema does NOT mean that each template (or NFT) must have every fiel
   },
   {
     "name": "img",
-    "type": "string"
+    "type": "strimageing"
   },
   {
     "name": "audio",
@@ -154,7 +154,7 @@ Using this schema does NOT mean that each template (or NFT) must have every fiel
   },
   {
     "name": "promo",
-    "type": "image"
+    "type": "ipfs"
   },
   {
     "name": "collectionimg",
