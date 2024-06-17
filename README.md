@@ -134,7 +134,7 @@ Using this schema does NOT mean that each template (or NFT) must have every fiel
   },
   {
     "name": "img",
-    "type": "strimageing"
+    "type": "image"
   },
   {
     "name": "audio",
